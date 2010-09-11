@@ -1,0 +1,29 @@
+{
+    "format" : 1.0,
+    "licenses" : {
+        "BSD" : {
+            "full_name" : "The BSD License",
+            "osi_approved" : true,
+            "link" : "http://www.opensource.org/licenses/bsd-license.php"
+        },
+        "MIT" : {
+            "full_name" : "The MIT License",
+            "osi_approved" : true,
+            "link" : "http://www.opensource.org/licenses/mit-license.php"
+        },
+        "GPL" : {
+            "full_name" : "GNU General Public License",
+            "versions" : ["GPLv2","GPLv3"]
+        },
+        "GPLv2" : {
+            "full_name" : "GNU General Public License, version 2",
+            "osi_approved" : true,
+            "link" : "http://www.opensource.org/licenses/gpl-2.0.php"
+        },
+        "GPLv3" : {
+            "full_name" : "GNU General Public License, version 3",
+            "osi_approved" : true,
+            "link" : "http://www.opensource.org/licenses/gpl-3.0.html"
+        }
+    }
+}
