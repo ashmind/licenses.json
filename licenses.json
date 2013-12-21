@@ -1,29 +1,41 @@
 {
-    "format" : 1.0,
-    "licenses" : {
-        "BSD" : {
-            "full_name" : "The BSD License",
-            "osi_approved" : true,
-            "link" : "http://www.opensource.org/licenses/bsd-license.php"
+    "format" : 0.8,
+    "licenses" : [
+        {
+            "shortName" : "Apache",
+            "longName"  : "Apache License, Version 2.0",
+            "urls"      : ["http://www.apache.org/licenses/LICENSE-2.0.html"],
+            "pattern"   : "Apache License,? Version 2\\.0"
         },
-        "MIT" : {
-            "full_name" : "The MIT License",
-            "osi_approved" : true,
-            "link" : "http://www.opensource.org/licenses/mit-license.php"
+        {
+            "shortName" : "BSD",
+            "longName"  : "The BSD License",            
+            "urls"      : ["http://www.opensource.org/licenses/bsd-license.php"],
+            "pattern"   : "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer"
         },
-        "GPL" : {
-            "full_name" : "GNU General Public License",
-            "versions" : ["GPLv2","GPLv3"]
+        {
+            "shortName" : "LGPL-2.1",
+            "longName"  : "The GNU Lesser General Public License, version 2.1",
+            "urls"      : ["http://www.gnu.org/licenses/lgpl-2.1.txt"],
+            "pattern"   : "GNU (LIBRARY|LESSER) GENERAL PUBLIC LICENSE( \\(LGPL\\))? Version 2\\.1"
         },
-        "GPLv2" : {
-            "full_name" : "GNU General Public License, version 2",
-            "osi_approved" : true,
-            "link" : "http://www.opensource.org/licenses/gpl-2.0.php"
+        {
+            "shortName" : "LGPL-3.0",
+            "longName"  : "The GNU Lesser General Public License, version 3.0",
+            "urls"      : ["http://www.gnu.org/licenses/lgpl-3.0.txt"],
+            "pattern"   : "GNU LESSER GENERAL PUBLIC LICENSE( \\(LGPL\\))? Version 3"
         },
-        "GPLv3" : {
-            "full_name" : "GNU General Public License, version 3",
-            "osi_approved" : true,
-            "link" : "http://www.opensource.org/licenses/gpl-3.0.html"
+        {
+            "shortName" : "MIT",
+            "longName"  : "The MIT License",
+            "urls"      : ["http://www.opensource.org/licenses/mit-license.php"],
+            "pattern"   : "deal in the Software without restriction"
+        },        
+        {
+            "shortName" : "MS-PL",
+            "longName"  : "Microsoft Public License",
+            "urls"      : ["http://opensource.org/licenses/MS-PL"],
+            "pattern"   : "including the license conditions and limitations in section 3, each contributor"
         }
-    }
+    ]
 }
